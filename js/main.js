@@ -22,9 +22,8 @@
 
   /* ---------- Links centralizados (js/config.js) ---------- */
   function setupLinks() {
-    if (cfg.whatsapp) {
-      var url = 'https://wa.me/' + cfg.whatsapp + '?text=' + encodeURIComponent(cfg.whatsappMensagem || '');
-      $$('[data-whatsapp]').forEach(function (a) { a.href = url; });
+    if (cfg.whatsappLink) {
+      $$('[data-whatsapp]').forEach(function (a) { a.href = cfg.whatsappLink; });
     }
     if (cfg.instagram) $$('[data-instagram]').forEach(function (a) { a.href = cfg.instagram; });
   }

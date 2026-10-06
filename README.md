@@ -31,7 +31,7 @@ assets/img/
 
 ## Trocar dados
 
-- **WhatsApp:** edite `whatsapp` em `js/config.js` (só dígitos, com DDI e DDD). Todos os botões usam esse número. Ao trocar, atualize também os `href` de fallback no HTML (para quem está sem JS): busque `5565999888128` no `index.html`.
+- **WhatsApp:** edite `whatsappLink` em `js/config.js`. Todos os botões usam esse link. Ao trocar, atualize também os `href` de fallback no HTML (para quem está sem JS): busque `api.whatsapp.com` no `index.html`.
 - **Horário de funcionamento (fictício):** procure o comentário `<!-- FICTÍCIO -->` no `index.html`.
 
 ## Trocar as fotos
