@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Águas Clara Resort | Parque Aquático com Piscina de Ondas em Indiavaí/MT</title>
+  <meta name="description" content="O primeiro parque aquático da Região do Jauru com Piscina de Ondas. Garanta seu Acesso VIP Vitalício e curta com toda a família, por toda a vida.">
+  <meta name="theme-color" content="#16285F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Águas Clara Resort">
+  <meta property="og:title" content="Águas Clara Resort · Piscina de Ondas no Vale do Jauru">
+  <meta property="og:description" content="O primeiro parque aquático da Região do Jauru com Piscina de Ondas. Garanta seu Acesso VIP Vitalício e curta com toda a família, por toda a vida.">
+  <meta property="og:image" content="assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Logo do Parque Aquático Águas Clara Resort sobre fundo azul com ondas">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800;900&amp;family=Kaushan+Script&amp;family=Libre+Baskerville:ital@1&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800;900&amp;family=Kaushan+Script&amp;family=Libre+Baskerville:ital@1&amp;display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800;900&amp;family=Kaushan+Script&amp;family=Libre+Baskerville:ital@1&amp;display=swap"></noscript>
+  <link rel="preload" as="image" href="assets/img/fotos/hero-800.webp" imagesrcset="assets/img/fotos/hero-800.webp 800w, assets/img/fotos/hero.webp 1536w" imagesizes="(min-width: 1024px) 100vw, 160vw" type="image/webp">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    // Ativa os estados iniciais das animações só quando há JS; se o JS principal não subir, o conteúdo volta a aparecer.
+    document.documentElement.classList.add('js');
+    window.__acFailsafe = setTimeout(function () { document.documentElement.classList.remove('js'); }, 3500);
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WaterPark",
+    "name": "Parque Aquático Águas Clara Resort",
+    "description": "O primeiro parque aquático da Região do Jauru com Piscina de Ondas.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Águas Claras, Cláudio Manuel",
+      "addressLocality": "Mariana",
+      "addressRegion": "MG",
+      "addressCountry": "BR"
+    },
+    "sameAs": ["https://www.instagram.com/aguasclara_resorts/"]
+  }
+  </script>
+
+  <script src="js/config.js" defer></script>
+  <script src="vendor/gsap.min.js" defer></script>
+  <script src="vendor/ScrollTrigger.min.js" defer></script>
+  <script src="vendor/SplitText.min.js" defer></script>
+  <script src="vendor/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Ícones de linha (sprite) -->
+  <svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-onda" viewBox="0 0 24 24"><path d="M2 9c2.2 0 2.2-2 4.4-2s2.2 2 4.4 2 2.2-2 4.4-2 2.2 2 4.4 2"/><path d="M2 14c2.2 0 2.2-2 4.4-2s2.2 2 4.4 2 2.2-2 4.4-2 2.2 2 4.4 2"/><path d="M2 19c2.2 0 2.2-2 4.4-2s2.2 2 4.4 2 2.2-2 4.4-2 2.2 2 4.4 2"/></symbol>
+    <symbol id="i-familia" viewBox="0 0 24 24"><circle cx="7" cy="5.5" r="2.3"/><circle cx="17" cy="5.5" r="2.3"/><circle cx="12" cy="11" r="1.8"/><path d="M3.5 21v-6.5A3.5 3.5 0 0 1 7 11h0a3.5 3.5 0 0 1 2.6 1.2"/><path d="M20.5 21v-6.5A3.5 3.5 0 0 0 17 11h0a3.5 3.5 0 0 0-2.6 1.2"/><path d="M9 21v-3.2a3 3 0 0 1 6 0V21"/></symbol>
+    <symbol id="i-sol" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21.5s-7-6.2-7-11.5a7 7 0 0 1 14 0c0 5.3-7 11.5-7 11.5Z"/><circle cx="12" cy="10" r="2.6"/></symbol>
+    <symbol id="i-palmeira" viewBox="0 0 24 24"><path d="M12.5 10.5c.6 3.8.2 7.6-1.6 11"/><path d="M8 21.5h8"/><path d="M12.5 10.5C10.8 7.2 7.4 6 4 7.3c2.7.2 4.7 1.4 6 3.2"/><path d="M12.5 10.5c1.7-3.3 5.1-4.5 8.5-3.2-2.7.2-4.7 1.4-6 3.2"/><path d="M12.5 10.5c-.7-3.2-3-5.6-6.3-6.3 2 1.3 3.4 3.4 3.9 5.7"/><path d="M12.5 10.5c.7-3.2 3-5.6 6.3-6.3-2 1.3-3.4 3.4-3.9 5.7"/></symbol>
+    <symbol id="i-coracao" viewBox="0 0 24 24"><path d="M12 20.5S3 15 3 8.9A4.6 4.6 0 0 1 7.6 4.3c1.8 0 3.4 1 4.4 2.5 1-1.5 2.6-2.5 4.4-2.5A4.6 4.6 0 0 1 21 8.9C21 15 12 20.5 12 20.5Z"/></symbol>
+    <symbol id="i-estrela" viewBox="0 0 24 24"><path d="m12 2.8 2.8 5.8 6.3.9-4.6 4.4 1.1 6.3L12 17.2l-5.6 3 1.1-6.3-4.6-4.4 6.3-.9Z"/></symbol>
+    <symbol id="i-infinito" viewBox="0 0 24 24"><path d="M12 12c-2-2.6-3.6-4.2-6-4.2a4.2 4.2 0 0 0 0 8.4c2.4 0 4-1.6 6-4.2Zm0 0c2 2.6 3.6 4.2 6 4.2a4.2 4.2 0 0 0 0-8.4c-2.4 0-4 1.6-6 4.2Z"/></symbol>
+    <symbol id="i-pessoas" viewBox="0 0 24 24"><circle cx="9" cy="7.5" r="3.2"/><path d="M2.8 20.5v-1.2A5.3 5.3 0 0 1 8.1 14h1.8a5.3 5.3 0 0 1 5.3 5.3v1.2"/><path d="M15.5 4.6a3.2 3.2 0 0 1 0 6"/><path d="M18 14.2a5.3 5.3 0 0 1 3.2 4.9v1.4"/></symbol>
+    <symbol id="i-setas" viewBox="0 0 24 24"><path d="M20 11.5A8 8 0 0 0 6.2 6.3L4 8.5"/><path d="M4 3.8v4.7h4.7"/><path d="M4 12.5a8 8 0 0 0 13.8 5.2l2.2-2.2"/><path d="M20 20.2v-4.7h-4.7"/></symbol>
+    <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.2 2"/></symbol>
+    <symbol id="i-rota" viewBox="0 0 24 24"><path d="m3 11 18-8-8 18-2-8Z"/></symbol>
+    <symbol id="i-mais" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 32 32"><path fill="currentColor" stroke="none" d="M16.04 3C8.9 3 3.1 8.8 3.1 15.94c0 2.28.6 4.5 1.73 6.46L3 29l6.77-1.78a12.9 12.9 0 0 0 6.27 1.6h.01c7.13 0 12.94-5.8 12.94-12.94A12.95 12.95 0 0 0 16.04 3Zm0 23.64h-.01a10.7 10.7 0 0 1-5.46-1.5l-.39-.23-4.02 1.05 1.07-3.92-.25-.4a10.67 10.67 0 0 1-1.64-5.7c0-5.9 4.8-10.71 10.71-10.71a10.7 10.7 0 0 1 10.7 10.72c0 5.9-4.8 10.7-10.71 10.7Zm5.87-8.02c-.32-.16-1.91-.94-2.2-1.05-.3-.11-.51-.16-.73.16-.21.32-.83 1.05-1.02 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.59-1.6-.96-.85-1.6-1.9-1.79-2.22-.19-.32-.02-.5.14-.66.15-.14.32-.38.48-.56.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.72-1.74-.99-2.38-.26-.62-.53-.54-.73-.55h-.62c-.21 0-.56.08-.86.4-.29.32-1.12 1.1-1.12 2.68 0 1.58 1.15 3.1 1.31 3.32.16.21 2.26 3.45 5.47 4.84.77.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.91-.78 2.18-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r=".6" fill="currentColor"/></symbol>
+  </svg>
+
+  <!-- ===================== HEADER FLUTUANTE ===================== -->
+  <header class="hdr" data-hdr>
+    <div class="hdr__pill">
+      <a class="hdr__logo" href="#inicio" aria-label="Águas Clara Resort, voltar ao início">
+        <img src="assets/img/logo/logo-branca.webp" width="1200" height="940" alt="Parque Aquático Águas Clara Resort">
+      </a>
+      <nav class="hdr__nav" aria-label="Seções do site">
+        <ul>
+          <li><a href="#inicio" data-nav="inicio">Início</a></li>
+          <li><a href="#piscina-de-ondas" data-nav="piscina-de-ondas">Piscina de Ondas</a></li>
+          <li><a href="#o-parque" data-nav="o-parque">O Parque</a></li>
+          <li><a href="#atracoes" data-nav="atracoes">Atrações</a></li>
+          <li><a href="#acesso-vip" data-nav="acesso-vip">Acesso VIP</a></li>
+          <li><a href="#localizacao" data-nav="localizacao">Localização</a></li>
+          <li><a href="#duvidas" data-nav="duvidas">Dúvidas</a></li>
+        </ul>
+        <span class="hdr__indicator" aria-hidden="true"></span>
+      </nav>
+      <a class="btn btn--sol btn--sm hdr__cta" data-whatsapp target="_blank" rel="noopener" href="https://wa.me/5565999888128?text=Quero%20garantir%20meu%20passaporte%20vital%C3%ADcio">Quero ser Sócio VIP</a>
+      <button class="hdr__burger" type="button" aria-expanded="false" aria-controls="menu-mobile" aria-label="Abrir menu" data-burger>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu mobile: uma onda sobe e cobre a tela -->
+  <div class="menu" id="menu-mobile" role="dialog" aria-modal="true" aria-label="Menu" hidden data-menu>
+    <div class="menu__sheet">
+    <div class="menu__wave" aria-hidden="true">
+      <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 120V60C180 20 540 100 720 60S1260 20 1440 60 1980 100 2160 60 2700 20 2880 60V120Z"/></svg>
+    </div>
+    <div class="menu__body">
+      <div class="menu__caustics caustics" aria-hidden="true"><i></i><i></i></div>
+      <nav aria-label="Menu principal">
+        <ul class="menu__list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#piscina-de-ondas">Piscina de Ondas</a></li>
+          <li><a href="#o-parque">O Parque</a></li>
+          <li><a href="#atracoes">Atrações</a></li>
+          <li><a href="#acesso-vip">Acesso VIP</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#duvidas">Dúvidas</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--sol btn--lg menu__cta" data-whatsapp target="_blank" rel="noopener" href="https://wa.me/5565999888128?text=Quero%20garantir%20meu%20passaporte%20vital%C3%ADcio">Quero ser Sócio VIP</a>
+    </div>
+    </div>
+  </div>
+
+  <main id="conteudo" tabindex="-1">
+
+    <!-- ===================== 1. HERO ===================== -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero__photo" data-par="0.12">
+        <img src="assets/img/fotos/hero.webp"
+             srcset="assets/img/fotos/hero-800.webp 800w, assets/img/fotos/hero.webp 1536w"
+             sizes="(min-width: 1024px) 100vw, 160vw" width="1536" height="1024" fetchpriority="high" decoding="async"
+             alt="Família sorrindo e brincando nas ondas da Piscina de Ondas do Águas Clara Resort">
+      </div>
+      <div class="hero__glow" aria-hidden="true" data-par="0.15"></div>
+
+      <div class="hero__inner wrap">
+        <div class="hero__copy">
+          <p class="pill pill--glass">Parque Aquático · Vale Do Jauru/MT</p>
+          <h1 class="hero__title" id="hero-title"><span class="w" style="--i:0">O</span> <span class="w" style="--i:1">Primeiro</span> <span class="w" style="--i:2">Parque</span> <span class="w" style="--i:3">Aquático</span> <span class="w" style="--i:4">da</span> <span class="w" style="--i:5">Região</span> <span class="w" style="--i:6">do</span> <span class="w" style="--i:7">Jauru</span> <span class="w" style="--i:8">com</span> <span class="w hl-sol" style="--i:9">Piscina</span> <span class="w hl-sol" style="--i:10">de</span> <span class="w hl-sol" style="--i:11">Ondas.</span></h1>
+          <p class="hero__sub">Onde o lazer encontra a natureza. Sol, água e diversão para viver com quem você ama.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--sol btn--lg" data-whatsapp data-cta target="_blank" rel="noopener" href="https://wa.me/5565999888128?text=Quero%20garantir%20meu%20passaporte%20vital%C3%ADcio">
+              <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>Garanta seu Acesso VIP
+            </a>
+            <a class="btn btn--ghost btn--lg" data-cta href="#piscina-de-ondas">Conhecer a Piscina de Ondas</a>
+          </div>
+        </div>
+
+        <div class="hero__mascot" data-par="-0.6">
+          <div class="mascot-float">
+            <img class="mascot" src="assets/img/mascote/tubarao.webp" width="676" height="958" alt="Mascote tubarão do Águas Clara Resort fazendo joinha">
+          </div>
+          <p class="bubble bubble--hero" data-bubble>Bora pegar onda?</p>
+        </div>
+      </div>
+
+      <div class="hero__waves" aria-hidden="true">
+        <div class="wv wv--1" data-par="0.25"><svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path d="M0 200V80C180 30 540 130 720 80S1260 30 1440 80 1980 130 2160 80 2700 30 2880 80V200Z"/></svg></div>
+        <div class="wv wv--2" data-par="0.45"><svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path d="M0 200V90C180 140 540 40 720 90S1260 140 1440 90 1980 40 2160 90 2700 140 2880 90V200Z"/></svg></div>
+        <div class="wv wv--3"><svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path d="M0 200V100C180 60 540 140 720 100S1260 60 1440 100 1980 140 2160 100 2700 60 2880 100V200Z"/></svg></div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. PISCINA DE ONDAS ===================== -->
+    <section class="po" id="piscina-de-ondas" aria-labelledby="po-title">
+      <div class="po__stage" data-po-stage>
+        <div class="po__photo" data-po-photo>
+          <img src="assets/img/fotos/piscina-ondas.webp"
+               srcset="assets/img/fotos/piscina-ondas-800.webp 800w, assets/img/fotos/piscina-ondas.webp 1600w"
+               sizes="100vw" width="1600" height="900" loading="lazy" decoding="async"
+               alt="Piscina de Ondas do Águas Clara Resort com famílias se divertindo">
+        </div>
+        <div class="po__flood" aria-hidden="true">
+          <div class="po__wv po__wv--1" data-po-wave><svg viewBox="0 0 2880 160" preserveAspectRatio="none"><path d="M0 160V70C180 20 540 120 720 70S1260 20 1440 70 1980 120 2160 70 2700 20 2880 70V160Z"/></svg></div>
+          <div class="po__wv po__wv--2" data-po-wave><svg viewBox="0 0 2880 160" preserveAspectRatio="none"><path d="M0 160V80C180 130 540 30 720 80S1260 130 1440 80 1980 30 2160 80 2700 130 2880 80V160Z"/></svg></div>
+          <div class="po__wv po__wv--3" data-po-wave><svg viewBox="0 0 2880 160" preserveAspectRatio="none"><path d="M0 160V70C180 30 540 110 720 70S1260 30 1440 70 1980 110 2160 70 2700 30 2880 70V160Z"/></svg></div>
+        </div>
+        <div class="po__head wrap">
+          <p class="pill pill--sol" data-po-pill>Nova atração</p>
+          <h2 class="po__title" id="po-title" data-po-title><span>Piscina de Ondas</span></h2>
+        </div>
+      </div>
+
+      <div class="po__content">
+        <div class="caustics caustics--soft" aria-hidden="true"><i></i><i></i></div>
+        <canvas class="bubbles" aria-hidden="true" data-bubbles="22"></canvas>
+        <div class="wrap po__inner">
+          <div class="po__intro">
+            <p class="po__sub" data-reveal>Você e sua família viverão essa experiência incrível!</p>
+            <p class="po__text" data-reveal>Uma atração inédita na região, criada para levar o Parque Aquático Águas Clara Resort a um novo patamar de lazer e experiência. São ondas de verdade, sem precisar ir até o mar.</p>
+          </div>
+          <ul class="benefits" role="list">
+            <li class="benefit" data-surf>
+              <span class="benefit__ico"><svg aria-hidden="true"><use href="#i-onda"/></svg></span>
+              <h3>Mais Emoção</h3>
+              <p>Ondas que transformam cada mergulho em aventura.</p>
+            </li>
+            <li class="benefit" data-surf>
+              <span class="benefit__ico"><svg aria-hidden="true"><use href="#i-familia"/></svg></span>
+              <h3>Diversão para Toda a Família</h3>
+              <p>Dos pequenos aos avós, tem onda para todo mundo.</p>
+            </li>
+            <li class="benefit" data-surf>
+              <span class="benefit__ico"><svg aria-hidden="true"><use href="#i-sol"/></svg></span>
+              <h3>Uma Nova Experiência de Lazer</h3>
+              <p>O clima de praia no coração do Mato Grosso.</p>
+            </li>
+            <li class="benefit" data-surf>
+              <span class="benefit__ico"><svg aria-hidden="true"><use href="#i-pin"/></svg></span>
+              <h3>Exclusividade no Vale do Jauru</h3>
+              <p>A primeira e única da região.</p>
+            </li>
+          </ul>
+          <div class="ribbon" data-ribbon>
+            <p>Inauguração prevista para <strong>julho de 2027</strong></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. O PARQUE ===================== -->
+    <section class="parque" id="o-parque" aria-labelledby="parque-title">
+      <div class="edge edge--top" style="--edge: var(--agua-funda)" aria-hidden="true">
+        <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 0H2880V60C2700 100 2340 20 2160 60S1620 20 1440 60 900 20 720 60 180 20 0 60Z"/></svg>
+      </div>
+      <div class="palm palm--l" aria-hidden="true" data-depth="-0.25"><svg viewBox="0 0 24 24"><use href="#i-palmeira"/></svg></div>
+      <div class="palm palm--r" aria-hidden="true" data-depth="-0.4"><svg viewBox="0 0 24 24"><use href="#i-palmeira"/></svg></div>
+
+      <div class="wrap parque__grid">
+        <div class="parque__copy">
+          <img class="parque__logo" src="assets/img/logo/logo-colorida.webp" width="1200" height="940" alt="Parque Aquático Águas Clara Resort" loading="lazy" data-reveal>
+          <h2 class="parque__title" id="parque-title" data-lines>A essência do nosso paraíso, agora em uma nova fase.</h2>
+          <p class="parque__text" data-reveal>O Águas Clara Resort já é conhecido como o maior destino de lazer do Vale do Jauru, e agora está crescendo. A nova fase mantém tudo o que nossos visitantes amam e traz mais estrutura, mais conforto e novas atrações para toda a família.</p>
+          <p class="brush parque__brush" data-brush>
+            <span>Onde o Lazer encontra a Natureza.</span>
+            <svg class="brush__line" viewBox="0 0 400 24" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16C80 6 160 20 240 12S360 8 396 14"/></svg>
+          </p>
+        </div>
+        <figure class="parque__photo" data-depth="0.12">
+          <div class="blob">
+            <img src="assets/img/fotos/prainha.webp"
+                 srcset="assets/img/fotos/prainha-800.webp 800w, assets/img/fotos/prainha.webp 1200w"
+                 sizes="(min-width: 1024px) 40vw, 90vw" width="1200" height="1500" loading="lazy" decoding="async"
+                 alt="Vista aérea da piscina principal do Águas Clara Resort, com quiosque central, guarda-sóis e toboágua">
+          </div>
+          <div class="parque__peek" aria-hidden="true" data-parque-mascot>
+            <img class="mascot" src="assets/img/mascote/tubarao.webp" width="676" height="958" alt="" loading="lazy">
+          </div>
+        </figure>
+      </div>
+
+      <ul class="pillars wrap" role="list">
+        <li class="pillar" data-pillar>
+          <span class="boia"><svg aria-hidden="true"><use href="#i-onda"/></svg></span>
+          <h3>Água e Diversão</h3>
+          <p>Piscinas e brinquedos para todas as idades.</p>
+        </li>
+        <li class="pillar" data-pillar>
+          <span class="boia"><svg aria-hidden="true"><use href="#i-sol"/></svg></span>
+          <h3>Sol e Energia</h3>
+          <p>Dias claros e quentes, do jeito que o verão pede.</p>
+        </li>
+        <li class="pillar" data-pillar>
+          <span class="boia"><svg aria-hidden="true"><use href="#i-palmeira"/></svg></span>
+          <h3>Natureza e Bem-estar</h3>
+          <p>Muito verde, palmeiras e sombra para descansar.</p>
+        </li>
+        <li class="pillar" data-pillar>
+          <span class="boia"><svg aria-hidden="true"><use href="#i-coracao"/></svg></span>
+          <h3>Conforto e Família</h3>
+          <p>Estrutura pensada para receber bem todo mundo.</p>
+        </li>
+        <li class="pillar" data-pillar>
+          <span class="boia"><svg aria-hidden="true"><use href="#i-estrela"/></svg></span>
+          <h3>Experiências Únicas</h3>
+          <p>Momentos que viram memória.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== 4. ATRAÇÕES ===================== -->
+    <section class="atr" id="atracoes" aria-labelledby="atr-title" data-atr>
+      <div class="edge edge--top" style="--edge: var(--areia-fim)" aria-hidden="true">
+        <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 0H2880V60C2700 20 2340 100 2160 60S1620 100 1440 60 900 100 720 60 180 100 0 60Z"/></svg>
+      </div>
+      <div class="caustics" aria-hidden="true"><i></i><i></i></div>
+
+      <div class="atr__pin" data-atr-pin>
+        <div class="wrap atr__head">
+          <h2 class="atr__title" id="atr-title" data-reveal>Diversão em cada canto do parque</h2>
+          <div class="atr__progress" aria-hidden="true">
+            <svg class="atr__boia" viewBox="0 0 48 48" data-atr-boia>
+              <circle cx="24" cy="24" r="17" fill="none" stroke="#fff" stroke-width="10"/>
+              <circle cx="24" cy="24" r="17" fill="none" stroke="#FDC307" stroke-width="10" stroke-dasharray="13.35 13.35"/>
+            </svg>
+            <span class="atr__bar"><i data-atr-bar></i></span>
+          </div>
+        </div>
+
+        <ul class="atr__track" role="list" data-atr-track>
+          <li class="card card--feature">
+            <div class="card__float">
+              <div class="card__img">
+                <img src="assets/img/fotos/piscina-ondas.webp"
+                     srcset="assets/img/fotos/piscina-ondas-800.webp 800w, assets/img/fotos/piscina-ondas.webp 1600w"
+                     sizes="(min-width: 1024px) 50vw, 86vw" width="1600" height="900" loading="lazy" decoding="async"
+                     alt="Piscina de Ondas com prainha, palmeiras e pessoas se divertindo nas ondas">
+                <p class="pill pill--sol card__pill">Nova atração</p>
+              </div>
+              <div class="card__body">
+                <h3>Piscina de Ondas</h3>
+                <p>A novidade que vai agitar a região.</p>
+              </div>
+            </div>
+          </li>
+          <li class="card card--tall">
+            <div class="card__float">
+              <div class="card__img">
+                <img src="assets/img/fotos/prainha.webp"
+                     srcset="assets/img/fotos/prainha-800.webp 800w, assets/img/fotos/prainha.webp 1200w"
+                     sizes="(min-width: 1024px) 26vw, 76vw" width="1200" height="1500" loading="lazy" decoding="async"
+                     alt="Vista aérea da piscina principal do Águas Clara Resort">
+              </div>
+              <div class="card__body">
+                <h3>Piscina com Prainha</h3>
+                <p>Entrada suave, como uma praia, ideal para relaxar.</p>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__float">
+              <div class="card__img">
+                <img src="assets/img/fotos/toboaguas.webp"
+                     srcset="assets/img/fotos/toboaguas-800.webp 800w, assets/img/fotos/toboaguas.webp 1200w"
+                     sizes="(min-width: 1024px) 32vw, 76vw" width="1200" height="900" loading="lazy" decoding="async"
+                     alt="Toboágua em espiral vermelho e azul do Águas Clara Resort visto de cima">
+              </div>
+              <div class="card__body">
+                <h3>Toboáguas</h3>
+                <p>Descidas cheias de adrenalina para quem gosta de emoção.</p>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__float">
+              <div class="card__img">
+                <img src="assets/img/fotos/area-infantil.webp"
+                     srcset="assets/img/fotos/area-infantil-800.webp 800w, assets/img/fotos/area-infantil.webp 1200w"
+                     sizes="(min-width: 1024px) 32vw, 76vw" width="1200" height="900" loading="lazy" decoding="async"
+                     alt="Piscina infantil do Águas Clara Resort com escorregadores e brinquedos aquáticos, vista de cima">
+              </div>
+              <div class="card__body">
+                <h3>Área Infantil</h3>
+                <p>Escorregadores, jatos d'água e baldão para a criançada.</p>
+              </div>
+            </div>
+          </li>
+          <li class="card">
+            <div class="card__float">
+              <div class="card__img">
+                <img src="assets/img/fotos/quiosques.webp"
+                     srcset="assets/img/fotos/quiosques-800.webp 800w, assets/img/fotos/quiosques.webp 1200w"
+                     sizes="(min-width: 1024px) 32vw, 76vw" width="1200" height="900" loading="lazy" decoding="async"
+                     alt="Quiosques cobertos ao lado das piscinas do Águas Clara Resort">
+              </div>
+              <div class="card__body">
+                <h3>Quiosques e Área de Descanso</h3>
+                <p>Sombra, conforto e espaço para a família.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== 5. ACESSO VIP ===================== -->
+    <section class="vip" id="acesso-vip" aria-labelledby="vip-title">
+      <div class="edge edge--top" style="--edge: var(--azul-onda)" aria-hidden="true">
+        <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 0H2880V60C2700 100 2340 20 2160 60S1620 20 1440 60 900 20 720 60 180 20 0 60Z"/></svg>
+      </div>
+      <div class="vip__sky" aria-hidden="true"><span class="vip__glow vip__glow--1"></span><span class="vip__glow vip__glow--2"></span><span class="sparkles"></span></div>
+
+      <div class="wrap">
+        <div class="vip__stage" data-vip-stage>
+          <article class="vcard" data-vcard>
+            <div class="vcard__shine" aria-hidden="true"></div>
+            <div class="vcard__top">
+              <p class="pill pill--gold">Sócio VIP Vitalício</p>
+              <img class="vcard__logo" src="assets/img/logo/logo-branca.webp" width="1200" height="940" alt="" loading="lazy">
+            </div>
+            <span class="vcard__chip" aria-hidden="true"></span>
+            <h2 class="vcard__title" id="vip-title">Garanta já seu <span class="hl-sol">Acesso VIP Vitalício</span> para curtir com toda a família e amigos por toda a vida.</h2>
+            <p class="vcard__text">Seu acesso como sócio é compartilhável e transferível!</p>
+            <ul class="vcard__perks" role="list">
+              <li>
+                <span class="vcard__ico"><svg aria-hidden="true"><use href="#i-infinito"/></svg></span>
+                <div><h3>Vitalício</h3><p>Diversão garantida para sempre.</p></div>
+              </li>
+              <li>
+                <span class="vcard__ico"><svg aria-hidden="true"><use href="#i-pessoas"/></svg></span>
+                <div><h3>Compartilhável</h3><p>Leve a família e os amigos.</p></div>
+              </li>
+              <li>
+                <span class="vcard__ico"><svg aria-hidden="true"><use href="#i-setas"/></svg></span>
+                <div><h3>Transferível</h3><p>O título é seu e pode ser repassado.</p></div>
+              </li>
+            </ul>
+            <p class="vcard__apoio">Garantindo seu Acesso VIP, você garante um investimento com alta lucratividade na revenda no futuro.</p>
+            <div class="vcard__cta">
+              <a class="btn btn--sol btn--xl btn--pulse" data-whatsapp data-cta target="_blank" rel="noopener" href="https://wa.me/5565999888128?text=Quero%20garantir%20meu%20passaporte%20vital%C3%ADcio">
+                <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>Quero meu Acesso VIP
+              </a>
+              <p class="vcard__micro">Fale com nossa equipe e conheça as condições.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="steps">
+          <h2 class="steps__title" data-reveal>Ser sócio é simples</h2>
+          <div class="steps__track">
+            <span class="steps__line" aria-hidden="true"><i data-steps-line></i></span>
+            <ol class="steps__list" data-steps>
+              <li class="step" data-step>
+                <span class="step__num" aria-hidden="true">1</span>
+                <p><strong>Chame no WhatsApp:</strong> nossa equipe tira todas as suas dúvidas.</p>
+              </li>
+              <li class="step" data-step>
+                <span class="step__num" aria-hidden="true">2</span>
+                <p><strong>Conheça as condições:</strong> escolha a melhor forma para você.</p>
+              </li>
+              <li class="step" data-step>
+                <span class="step__num" aria-hidden="true">3</span>
+                <p><strong>Aproveite para sempre:</strong> é só chegar e curtir com a família.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 7. LOCALIZAÇÃO ===================== -->
+    <section class="loc" id="localizacao" aria-labelledby="loc-title">
+      <div class="edge edge--top" style="--edge: var(--azul-noite)" aria-hidden="true">
+        <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 0H2880V60C2700 20 2340 100 2160 60S1620 100 1440 60 900 100 720 60 180 100 0 60Z"/></svg>
+      </div>
+      <div class="loc__sky" aria-hidden="true">
+        <div class="cloud cloud--4"></div><div class="cloud cloud--5"></div><div class="cloud cloud--6"></div>
+      </div>
+      <div class="wrap loc__grid">
+        <div class="loc__copy">
+          <h2 class="loc__title" data-reveal id="loc-title">Venha nos visitar</h2>
+          <ul class="loc__info" role="list">
+            <li data-reveal><span class="loc__ico"><svg aria-hidden="true"><use href="#i-pin"/></svg></span><p>Águas Claras, Cláudio Manuel, Mariana</p></li>
+            <!-- FICTÍCIO: horário de funcionamento provisório -->
+            <li data-reveal><span class="loc__ico"><svg aria-hidden="true"><use href="#i-relogio"/></svg></span><p>Sexta a domingo e feriados, das 9h às 17h</p></li>
+          </ul>
+          <a class="btn btn--marinho btn--lg" data-reveal target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=%C3%81guas+Claras%2C+Cl%C3%A1udio+Manuel%2C+Mariana+-+MG">
+            <svg class="ico" aria-hidden="true"><use href="#i-rota"/></svg>Como chegar
+          </a>
+        </div>
+        <div class="loc__map" data-reveal>
+          <div class="loc__frame">
+            <iframe loading="lazy" title="Mapa do Águas Clara Resort" referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps?q=%C3%81guas+Claras%2C+Cl%C3%A1udio+Manuel%2C+Mariana+-+MG&amp;output=embed"></iframe>
+          </div>
+          <span class="loc__badge" aria-hidden="true"><img src="assets/img/logo/logo-simbolo.webp" width="600" height="383" alt="" loading="lazy"></span>
+          <div class="loc__peek" aria-hidden="true" data-loc-mascot>
+            <img class="mascot" src="assets/img/mascote/tubarao.webp" width="676" height="958" alt="" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. DÚVIDAS ===================== -->
+    <section class="faq" id="duvidas" aria-labelledby="faq-title">
+      <div class="edge edge--top" style="--edge: var(--loc-fim)" aria-hidden="true">
+        <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 0H2880V60C2700 100 2340 20 2160 60S1620 20 1440 60 900 20 720 60 180 20 0 60Z"/></svg>
+      </div>
+      <canvas class="bubbles" aria-hidden="true" data-bubbles="16" data-bubbles-light></canvas>
+      <div class="wrap faq__inner">
+        <h2 class="faq__title" data-reveal id="faq-title">Dúvidas frequentes</h2>
+        <div class="faq__list">
+          <details class="qa" data-reveal>
+            <summary><span>Onde fica o parque?</span><svg class="qa__ico" aria-hidden="true"><use href="#i-mais"/></svg></summary>
+            <div class="qa__a"><p>Em Águas Claras, Cláudio Manuel, Mariana, no Vale do Jauru.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary><span>Quando a Piscina de Ondas será inaugurada?</span><svg class="qa__ico" aria-hidden="true"><use href="#i-mais"/></svg></summary>
+            <div class="qa__a"><p>A previsão é julho de 2027.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary><span>O Acesso VIP pode ser compartilhado?</span><svg class="qa__ico" aria-hidden="true"><use href="#i-mais"/></svg></summary>
+            <div class="qa__a"><p>Sim. Ele é compartilhável, para você curtir com família e amigos.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary><span>Posso transferir meu título?</span><svg class="qa__ico" aria-hidden="true"><use href="#i-mais"/></svg></summary>
+            <div class="qa__a"><p>Sim. O Acesso VIP é transferível.</p></div>
+          </details>
+          <details class="qa" data-reveal>
+            <summary><span>Quais são os valores e as condições?</span><svg class="qa__ico" aria-hidden="true"><use href="#i-mais"/></svg></summary>
+            <div class="qa__a"><p>Fale com nossa equipe pelo WhatsApp para conhecer as condições atuais.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 9. CTA FINAL ===================== -->
+    <section class="cta" aria-labelledby="cta-title" data-cta-section>
+      <div class="edge edge--top" style="--edge: var(--faq-fim)" aria-hidden="true">
+        <svg viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 0H2880V60C2700 20 2340 100 2160 60S1620 100 1440 60 900 100 720 60 180 100 0 60Z"/></svg>
+      </div>
+      <div class="cta__sky" aria-hidden="true"><div class="cta__sun"></div></div>
+      <div class="wrap cta__grid">
+        <div class="cta__copy">
+          <h2 class="cta__title" id="cta-title" data-reveal>Seu lugar no paraíso está te esperando.</h2>
+          <p class="cta__text" data-reveal>Seja Sócio VIP Vitalício e faça parte da nova fase do maior destino de lazer do Vale do Jauru.</p>
+          <a class="btn btn--sol btn--xl" data-reveal data-whatsapp data-cta target="_blank" rel="noopener" href="https://wa.me/5565999888128?text=Quero%20garantir%20meu%20passaporte%20vital%C3%ADcio">
+            <svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>Quero ser Sócio VIP
+          </a>
+        </div>
+        <div class="cta__mascot" data-cta-mascot>
+          <div class="splash" aria-hidden="true" data-splash><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="mascot-float mascot-float--slow">
+            <img class="mascot" src="assets/img/mascote/tubarao.webp" width="676" height="958" alt="Mascote tubarão do Águas Clara Resort fazendo joinha" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="cta__waves" aria-hidden="true">
+        <div class="wv wv--c1"><svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path d="M0 200V90C180 140 540 40 720 90S1260 140 1440 90 1980 40 2160 90 2700 140 2880 90V200Z"/></svg></div>
+        <div class="wv wv--c2"><svg viewBox="0 0 2880 200" preserveAspectRatio="none"><path d="M0 200V100C180 60 540 140 720 100S1260 60 1440 100 1980 140 2160 100 2700 60 2880 100V200Z"/></svg></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 10. RODAPÉ ===================== -->
+  <footer class="ftr">
+    <canvas class="bubbles" aria-hidden="true" data-bubbles="12"></canvas>
+    <div class="wrap ftr__inner">
+      <img class="ftr__logo" src="assets/img/logo/logo-branca.webp" width="1200" height="940" alt="Parque Aquático Águas Clara Resort" loading="lazy">
+      <p class="ftr__sign">Lazer · Natureza · Conforto · Experiências</p>
+      <ul class="ftr__links" role="list">
+        <li><svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg><span>Águas Claras, Cláudio Manuel, Mariana</span></li>
+        <li><a data-instagram target="_blank" rel="noopener" href="https://www.instagram.com/aguasclara_resorts/"><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg>@aguasclara_resorts</a></li>
+        <li><a data-whatsapp target="_blank" rel="noopener" href="https://wa.me/5565999888128?text=Quero%20garantir%20meu%20passaporte%20vital%C3%ADcio"><svg class="ico" aria-hidden="true"><use href="#i-whatsapp"/></svg>WhatsApp</a></li>
+      </ul>
+      <p class="ftr__copy">© 2026 Parque Aquático Águas Clara Resort. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- ===================== BOTÃO FLUTUANTE DE WHATSAPP ===================== -->
+  <div class="wa-float" data-wa-float>
+    <p class="wa-float__bubble" data-wa-bubble hidden>Fala com a gente!</p>
+    <a class="wa-float__btn" data-whatsapp target="_blank" rel="noopener" aria-label="Falar com o Águas Clara Resort pelo WhatsApp" href="https://wa.me/5565999888128?text=Quero%20garantir%20meu%20passaporte%20vital%C3%ADcio">
+      <svg aria-hidden="true"><use href="#i-whatsapp"/></svg>
+    </a>
+  </div>
+</body>
+</html>
