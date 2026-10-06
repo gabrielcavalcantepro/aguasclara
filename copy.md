@@ -30,9 +30,9 @@ Botão de destaque: **Quero ser Sócio VIP**
 ## 1. Hero (`#inicio`)
 
 - **Selo:** Parque Aquático · Vale Do Jauru/MT
-- **Título (H1):** O Primeiro Parque Aquático da Região do Jauru com Piscina de Ondas.
-- **Subtítulo:** Onde o lazer encontra a natureza. Sol, água e diversão para viver com quem você ama.
-- **Botão principal:** Garanta seu Acesso VIP → WhatsApp
+- **Título (H1):** O Primeiro Parque Aquático do Vale do Jauru com Piscina de Ondas.
+- **Subtítulo:** Seja já um sócio investidor e garanta seu acesso vitalício ao parque e as novas atrações.
+- **Botão principal:** Seja já um sócio VIP vitalício → WhatsApp
 - **Botão secundário:** Conhecer a Piscina de Ondas → `#piscina-de-ondas`
 - **Balão de fala do mascote:** Bora pegar onda?
 
@@ -93,7 +93,7 @@ Botão de destaque: **Quero ser Sócio VIP**
 ## 5. Cartão de destaque: Acesso VIP Vitalício (`#acesso-vip`)
 
 - **Selo:** Sócio VIP Vitalício
-- **Título:** Garanta já seu Acesso VIP Vitalício para curtir com toda a família e amigos por toda a vida.
+- **Título:** Seja já um sócio VIP vitalício
 - **Texto:** Seu acesso como sócio é compartilhável e transferível!
 
 **Destaques (3 itens dentro do cartão):**
@@ -104,7 +104,7 @@ Botão de destaque: **Quero ser Sócio VIP**
 | pessoas | Compartilhável | Leve a família e os amigos. |
 | setas circulares | Transferível | O título é seu e pode ser repassado. |
 
-- **Texto de apoio:** Garantindo seu Acesso VIP, você garante um investimento com alta lucratividade na revenda no futuro.
+- **Texto de apoio:** (movido para o destaque abaixo do "Como funciona")
 - **Botão:** Quero meu Acesso VIP → WhatsApp
 - **Microtexto abaixo do botão:** Fale com nossa equipe e conheça as condições.
 
@@ -117,6 +117,8 @@ Botão de destaque: **Quero ser Sócio VIP**
 1. **Chame no WhatsApp:** nossa equipe tira todas as suas dúvidas.
 2. **Conheça as condições:** escolha a melhor forma para você.
 3. **Aproveite para sempre:** é só chegar e curtir com a família.
+
+- **Destaque (abaixo dos 3 passos):** Garantindo seu Acesso VIP, você garante um investimento com alta lucratividade na revenda no futuro.
 
 ---
 

@@ -617,6 +617,27 @@
       });
     });
 
+    /* ----- DESTAQUE DO INVESTIMENTO: o gráfico sobe e a frase é marcada em dourado ----- */
+    steps.push(function invest() {
+      var box = $('[data-invest]');
+      var bars = $$('.invest__bar', box);
+      var lines = $$('.invest__trend, .invest__arrow', box);
+      var hl = $('.invest__hl', box);
+      gsap.set(box, { opacity: 0, y: 60, scale: 0.94 });
+      gsap.set(bars, { scaleY: 0 });
+      lines.forEach(function (l) { var len = l.getTotalLength(); gsap.set(l, { strokeDasharray: len, strokeDashoffset: len }); });
+      gsap.set(hl, { backgroundSize: '0% 100%', color: '#FFFFFF' });
+      onEnter(box, function () {
+        gsap.timeline()
+          .to(box, { opacity: 1, y: 0, scale: 1, duration: 0.9, ease: 'power3.out' })
+          .to(bars, { scaleY: 1, duration: 0.7, ease: 'back.out(2)', stagger: 0.12 }, '-=0.4')
+          .to(lines[0], { strokeDashoffset: 0, duration: 0.8, ease: 'power2.inOut' }, '-=0.3')
+          .to(lines[1], { strokeDashoffset: 0, duration: 0.35, ease: 'power2.out' })
+          .to(hl, { backgroundSize: '100% 100%', color: '#16285F', duration: 0.9, ease: 'power2.inOut' }, '-=0.5')
+          .fromTo('.invest__chart', { scale: 1 }, { scale: 1.08, duration: 0.25, yoyo: true, repeat: 1, ease: 'power1.inOut' }, '-=0.6');
+      }, '0px 0px -12% 0px');
+    });
+
     /* ----- LOCALIZAÇÃO: mascote espia por cima do mapa ----- */
     steps.push(function loc() {
     var locM = $('[data-loc-mascot]');
