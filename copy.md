@@ -54,8 +54,6 @@ Botão de destaque: **Quero ser Sócio VIP**
 | sol | Uma Nova Experiência de Lazer | O clima de praia no coração do Mato Grosso. |
 | pin de mapa | Exclusividade no Vale do Jauru | A primeira e única da região. |
 
-- **Faixa de inauguração:** Inauguração prevista para **julho de 2027**
-
 ---
 
 ## 3. O Parque (`#o-parque`)
@@ -139,9 +137,6 @@ Botão de destaque: **Quero ser Sócio VIP**
 **Onde fica o parque?**
 Em Águas Claras, Cláudio Manuel, Mariana, no Vale do Jauru.
 
-**Quando a Piscina de Ondas será inaugurada?**
-A previsão é julho de 2027.
-
 **O Acesso VIP pode ser compartilhado?**
 Sim. Ele é compartilhável, para você curtir com família e amigos.
 
@@ -184,6 +179,5 @@ Fale com nossa equipe pelo WhatsApp para conhecer as condições atuais.
 ## Pendências
 
 - [x] Número de WhatsApp: +55 65 99988-8128 (em `js/config.js`)
-- [x] Data real de inauguração da Piscina de Ondas: seção 2 e FAQ (julho de 2027)
 - [ ] Horário real de funcionamento: seção 7
 - [ ] Fotos reais das atrações: substituir os placeholders em `assets/img/fotos/` mantendo os mesmos nomes de arquivo

@@ -674,7 +674,7 @@ main:focus { outline: none; }
   z-index: 1;
   margin-top: -2px;
   overflow: clip;
-  padding: clamp(48px, 8vw, 96px) 0 clamp(150px, 16vw, 210px);
+  padding: clamp(48px, 8vw, 96px) 0 clamp(90px, 9vw, 130px);
   background:
     radial-gradient(70% 40% at 15% 30%, rgba(46, 190, 239, .18), transparent 70%),
     linear-gradient(180deg, var(--agua-funda), #132B63 55%, var(--agua-funda));
@@ -711,31 +711,6 @@ main:focus { outline: none; }
 .benefit__ico svg { width: 30px; height: 30px; stroke-width: 2; }
 .benefit h3 { font-weight: 900; font-size: 1.18rem; color: var(--branco); align-self: end; }
 .benefit p { color: var(--agua-clara); }
-
-.ribbon { display: flex; justify-content: center; margin-top: 56px; }
-.ribbon p {
-  position: relative;
-  overflow: hidden;
-  padding: 1em 2.4em;
-  background: var(--amarelo-sol);
-  color: var(--azul-marinho);
-  font-weight: 800;
-  font-size: clamp(1.05rem, .95rem + .6vw, 1.4rem);
-  text-align: center;
-  line-height: 1.3;
-  clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 50%, 100% 100%, 0 100%, 20px 50%);
-  transform: rotate(-2deg);
-  box-shadow: 0 14px 30px -10px rgba(253, 195, 7, .5);
-}
-.ribbon p::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(100deg, transparent 35%, rgba(255, 255, 255, .55) 50%, transparent 65%);
-  transform: translateX(-100%);
-  animation: sheen 4.5s ease-in-out infinite;
-}
-@keyframes sheen { 0%, 55% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
 
 @media (min-width: 640px) {
   .benefits { grid-template-columns: 1fr 1fr; }

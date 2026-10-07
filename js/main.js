@@ -472,9 +472,6 @@
           gsap.to(el, { opacity: 1, xPercent: 0, rotate: 0, y: 0, duration: 1.1, ease: 'power3.out', delay: isDesktop ? i * 0.12 : 0, clearProps: 'transform' });
         }, '0px 0px -6% 0px');
       });
-      var rib = $('[data-ribbon] p');
-      gsap.set(rib, { opacity: 0, scale: 0.5, rotate: -14 });
-      onEnter(rib, function () { gsap.to(rib, { opacity: 1, scale: 1, rotate: -2, duration: 1.2, ease: 'elastic.out(1, .6)' }); });
     });
 
     /* ----- O PARQUE ----- */
